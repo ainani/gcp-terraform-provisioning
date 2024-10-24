@@ -19,7 +19,7 @@ module "vpc" {
 module "instance_template" {
   source    = "./modules/gcp_instance_template"
 
-  boot_disk_image = "debian-cloud/debian-10"
+  boot_disk_image = "debian-cloud/debian-11"
   machine_type    = "e2-medium"
   name            = "instance-1"
   network         = "default"

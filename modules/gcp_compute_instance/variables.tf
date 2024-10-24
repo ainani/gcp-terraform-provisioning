@@ -19,7 +19,7 @@ variable "zone_name" {
 variable "machine_image" {
   type        = string
   description = "Name of image to be used"
-  default     = "debian-cloud/debian-10"
+  default     = "debian-cloud/debian-11"
 }
 
 
