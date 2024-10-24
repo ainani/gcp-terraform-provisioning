@@ -1,0 +1,5 @@
+secrets/*
+state/*
+.idea/*
+.terraform/*
+.terraform.lock.hcl
